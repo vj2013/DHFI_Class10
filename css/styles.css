@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+h1{
+    background-color: rgb(75, 222, 185);
+    font-size: smaller;
+}
+h2{
+    background-color: rgb(24, 115, 207);
+}
+
+h1, h2 {
+    padding: 15px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.row{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.row .col-md{
+    background-color: rgb(246, 244, 244);    
+    margin-left: 15px;
+    width: 200px;
+    height: 200px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+p{
+    color: black;
+    font-size: x-small;
+}
+
+.verMas{
+    color: white;
+    background-color: rgb(24, 115, 207);
+    border: none;
+    margin: 10px;
+    width: 100px;
+    padding: 8px;
+    position: relative;
+    bottom: center;
+}
+
+footer{
+    color: white;
+    background-color:rgb(24, 115, 207);
+    margin-top: auto;
+}
+
